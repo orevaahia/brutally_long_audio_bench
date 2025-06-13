@@ -76,7 +76,8 @@ python compute_task_metrics.py \
     --groundtruth_file blab_long_audio/word_localization.json \
    # --offset 2 (Tolerance of 2 seconds applied to only duration tasks. )
 
-# Extracting structured data from language model outputs, especially in JSON format, is still challenging. While our evaluation script tries to accommodate various output styles, some model predictions may not be perfectly parseable.
+# Extracting structured data from language model outputs, especially in JSON format, is still challenging.
+# While our evaluation script tries to accommodate various output styles, some model predictions may not be perfectly parseable and this might result in errors.
 ```
 
 
